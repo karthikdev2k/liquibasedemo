@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
 --preconditions onFail:HALT onError:HALT
---precondition-sql-check expectedResult:0 SELECT COUNT(*) FROM 'CUST_DETS';
+--precondition-sql-check expectedResult:0 SELECT COUNT(*) FROM 'CUST_DETS' WHERE CUSTID IN (1, 2, 3);
 
 --changeset karthik:2
 INSERT INTO CUST_DETS VALUES (1, 'John', 'Doe', 34, 'NV');
