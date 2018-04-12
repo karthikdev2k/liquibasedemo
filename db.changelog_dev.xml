@@ -3,6 +3,6 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9 http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
     <include file="Dev/sql001_create_tables.sql" />
-    <include file="Dev/sql002_insert_values.sql" />
+    <include file="Dev/" />
 <!--    <include file="Dev/sql001.xml" /> -->
 </databaseChangeLog>
